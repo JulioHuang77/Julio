@@ -1,0 +1,214 @@
+/* #Cover
+================================================== */
+
+	#cover {
+		overflow: hidden;
+		position: relative;
+	}
+	.cover {
+		height: 100vh;
+		max-height: 1024px;
+		min-height: 630px;
+		background: url(../images/coverphoto.png) no-repeat right bottom fixed;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+		visibility: hidden;
+	}
+	.title {
+		z-index: 1000;
+		visibility: hidden;
+		padding-top: 40vh;
+	}
+	.title h2 {
+		color: #4a4e53;
+		font-weight: 400;
+		line-height: 1;
+		margin-bottom: 12px;
+	}
+	.title h1 {
+		color: #4a4e53;
+		font-size: 80px;
+		line-height: 1;
+		font-weight: 500;
+		margin-bottom: 12px;
+	}
+
+
+
+/* #Intro
+================================================== */
+
+	.intro {
+		background: #ffffff;
+		position: relative;
+		max-width: 740px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.intro-p {
+		font-size: 1.5em;
+	}
+
+
+/* #Filter-gallery
+================================================== */
+
+	.filter-gallery {
+		background: #fff;
+	}
+
+/* #More
+================================================== */
+
+	#more {
+		background: #ffffff;
+		position: relative;
+		margin: 0 auto;
+	}
+	.more-portfolio {
+		position: relative;
+		text-align: center;
+	}
+	.more-portfolio h3 {
+		color: #18181D;
+		font-style: italic;
+	}
+	.more-portfolio img.mp1 {
+		width: 330px;
+		height: 240px;
+		opacity: 1;
+  }
+  .more-portfolio img.mp2 {
+  	opacity: 0;
+  	width: 330px;
+		height: 240px;
+  	position: absolute;
+  	left: 0;
+  	top: 0;
+  	transition:all 0.3s ease-out;
+    -moz-transition:all 0.3s ease-out;
+		-webkit-transition:all 0.3s ease-out;
+		-o-transition:all 0.3s ease-out;
+  }
+  .more-portfolio:hover img.mp1 {
+  	opacity: 0;
+  	transition:all 0.5s ease-in-out;
+	   -moz-transition:all 0.5s ease-in-out;
+   	-webkit-transition:all 0.5s ease-in-out;
+  	-o-transition:all 0.5s ease-in-out;
+  }
+  .more-portfolio:hover img.mp2 {
+  	opacity: 1;
+  }
+
+
+
+
+
+/* #Images
+================================================== */
+
+	img.scale-with-grid {
+		max-width: 100%;
+		height: auto; }
+
+
+
+
+/* JavaScript Turned Off */
+
+    .no-js .cover,
+    .no-js .title, {
+        visibility: visible;
+    }
+
+
+/* #Media query
+================================================== */
+	@media only screen and (min-width: 1360px) {
+
+		.cover {
+			background: url(../images/coverphoto.png) no-repeat right center scroll;
+			-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+		}
+		.title {
+			padding-top: 35vh;
+		}
+		.title h2 {
+			font-size: 58px;
+		}
+		.title h1 {
+			font-size: 108px;
+		}
+
+	}
+
+	@media only screen and (max-width: 1140px) {
+
+		.title h1 {
+			font-size: 62px;
+		}
+	}
+
+  @media only screen and (max-width: 959px) {
+
+		.cover {
+			min-height: 440px;
+		}
+	  .more-portfolio img.mp1, .more-portfolio img.mp2 {
+			width: 264px;
+			height: 192px;
+		}
+		.title {
+			text-align: center;
+			padding-top: 30vh;
+		}
+  }
+
+
+  @media only screen and (max-width: 767px) {
+
+		.cover {
+			max-height: 760px;
+			min-height: 400px;
+		}
+		.title {
+			z-index: 3000;
+			margin-top: 0px;
+		}
+		.title p {
+			display: none;
+		}
+    .more-portfolio img {
+			margin-top: 10px;
+		}
+		.more-portfolio:hover img.mp1 {
+  		opacity: 1;
+  	}
+  	.more-portfolio:hover img.mp2 {
+  		opacity: 0;
+  	}
+	}
+
+	@media only screen and (max-width: 479px) {
+
+		.cover {
+			max-height: 750px;
+			min-height: 280px;
+		}
+		.title h1 {
+			font-size: 48px;
+			margin-bottom: 10px;
+		}
+		.title h2 {
+			font-size: 22px;
+			margin-bottom: 10px;
+		}
+	}
+
+.revealOnScroll { opacity: 0; }

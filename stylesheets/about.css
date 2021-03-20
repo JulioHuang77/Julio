@@ -1,0 +1,254 @@
+
+/* #Cover
+================================================== */
+
+	#cover {
+		overflow: hidden;
+		position: relative;
+	}
+	.cover {
+		height: 100vh;
+		max-height: 1024px;
+		min-height: 630px;
+		background-color: #ffffff;
+		border-style: solid;
+ 		border-color: #FFE153;
+ 		border-bottom-width: 94px;
+	}
+	.title {
+		padding-top: 35vh;
+		z-index: 1000;
+		visibility: hidden;
+	}
+	.title h1 {
+		color: #4a4e53;
+		font-size: 80px;
+		line-height: 1;
+		font-weight: 500;
+	}
+	.coverphoto {
+		position: absolute;
+		bottom: -22px;
+		right: 5%;
+		z-index: 2000;
+		visibility: hidden;
+	}
+	.coverphoto img {
+		width: 525px;
+		height: 440px;
+	}
+	.coverphoto img.cp1 {
+		opacity: 1;
+	}
+	.coverphoto img.cp2 {
+		opacity: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transition:all 0.3s ease-out;
+	    -moz-transition:all 0.3s ease-out;
+   		-webkit-transition:all 0.3s ease-out;
+  		-o-transition:all 0.3s ease-out;
+	}
+	.coverphoto:hover img.cp1 {
+  		opacity: 0;
+  		transition:all 0.5s ease-in-out;
+	    -moz-transition:all 0.5s ease-in-out;
+   		-webkit-transition:all 0.5s ease-in-out;
+  		-o-transition:all 0.5s ease-in-out;
+  	}
+  	.coverphoto:hover img.cp2 {
+  		opacity: 1;
+  	}
+
+
+
+/* #Bridge
+================================================== */
+
+	.bridge {
+		background-color: #ffe153;
+		background: url(../images/about/bridge.png) no-repeat center top scroll;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+		text-align: center;
+	}
+	.bridge-h1 {
+		color: #fff;
+		visibility: hidden;
+	}
+
+/* #Field
+================================================== */
+
+	.field1, .field2 {
+		padding: 30px 0 0 0;
+	}
+	.field h3 {
+		text-align: center;
+	}
+ 	.field-sector {
+ 		text-align: center;
+ 		margin: 0px 20px 40px 20px;
+ 		visibility: hidden;
+ 	}
+ 	.field-sector p {
+ 		font-size: 16px;
+		line-height: 26px;
+ 	}
+ 	img.field-icon {
+		width: 180px;
+		height: 150px; }
+
+
+
+/* #Field
+================================================== */
+
+	.experience {
+	}
+	.experience ul {
+		list-style: none;
+	}
+	.experience li {
+		margin-bottom: 60px;
+		visibility: hidden;
+	}
+	.experience h3 {
+		margin-bottom: 6px;
+	}
+	.experience-italic {
+		color: #8E91A0;
+	}
+	.experience p {
+		margin-top: 16px;
+	}
+
+
+/* JavaScript Turned Off */
+
+    .no-js .title,
+    .no-js .coverphoto,
+    .no-js .intro-p,
+    .no-js .bridge-h1,
+    .no-js .experience {
+        visibility: visible;
+    }
+
+
+/* #Media query
+================================================== */
+	@media only screen and (min-width: 1600px) {
+	.coverphoto {
+		right: 10%;
+		}
+	}
+	@media only screen and (min-width: 1360px) {
+
+	.cover {
+		min-height: 798px;
+		}
+	.coverphoto {
+		bottom: -28px;
+		}
+	.coverphoto img {
+		width: 735px;
+		height: 616px;
+	    }
+	.title h1 {
+		font-size: 98px;
+	}
+
+	}
+
+	@media only screen and (max-width: 1140px) {
+
+
+	.coverphoto {
+		right: 2%;
+		}
+	}
+
+    @media only screen and (max-width: 959px) {
+
+	.cover {
+		min-height: 728px;
+	}
+	.title {
+		padding-top: 16vh;
+	}
+	.title h1 {
+		font-size: 62px;
+		text-align: center;
+		}
+	.coverphoto {
+		left: 50%;
+		margin-left: -240px;
+	}
+    }
+
+
+    @media only screen and (max-width: 767px) {
+
+	#cover {
+		margin-top: 86px;
+	}
+	.cover {
+		margin-top: -86px;
+		min-height: 860px;
+	}
+	.title {
+		margin-top: 0;
+		z-index: 3000;
+	}
+ 	.coverphoto img.cp1 {
+		opacity: 0;
+	}
+	.coverphoto img.cp2 {
+		opacity: 1;
+	}
+	.coverphoto:hover img.cp1 {
+  		opacity: 0;
+  	}
+  	.coverphoto:hover img.cp2 {
+  		opacity: 1;
+  	}
+  	.bridge-h1 {
+  		font-size: 36px;
+  		line-height: 42px;
+  	}
+  	.experience ul {
+  		margin-top: 40px;
+  	}
+	}
+
+	@media only screen and (max-width: 479px) {
+
+	.cover {
+		min-height: 580px;
+		max-height: 750px;
+		border-bottom-width: 74px;
+	}
+	.title h1 {
+		font-size: 48px;
+		margin-bottom: 10px;
+	}
+	.coverphoto {
+		margin-left: -145px;
+	}
+	.coverphoto img {
+		width: 315px;
+		height: 264px;
+		}
+	}
+
+	@media only screen and (max-width: 320px) {
+
+	.title {
+		padding-top: 20vh;
+		}
+	}
+
+.revealOnScroll { opacity: 0; }

@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Order Tracking System in SpoonRocket</title>
+	<meta name="author" content="Julio Huang">
+	<meta name="description" content="Rethink the whole process of order tracking system to decrease the willingness to cancel the order during long waiting time in rush hour.">
+	<meta name="format-detection" content="telephone=no">
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Order Tracking System"/>
+	<meta property="og:description" content="Rethink the whole process of order tracking system to decrease the willingness to cancel the order during long waiting time in rush hour."/>
+	<meta property="og:image" content="http://juliohuang.com/images/cover-ot.jpg">
+	<meta property="og:url" content="http://juliohuang.com/order-tracking.html">
+	<meta property="og:type" content="blog"/>
+
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/base.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/portfolio.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/loading.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/animate.css" />
+
+	<script type="text/javascript" src="js/modernizr-latest.js"></script>
+
+
+	<!--
+	/**
+	 * @license
+	 * MyFonts Webfont Build ID 3228440, 2016-06-06T02:34:14-0400
+	 *
+	 * The fonts listed in this notice are subject to the End User License
+	 * Agreement(s) entered into by the website owner. All other parties are
+	 * explicitly restricted from using the Licensed Webfonts(s).
+	 *
+	 * You may obtain a valid license at the URLs below.
+	 *
+	 * Webfont: DINNextRoundedLTPro-Light by Linotype
+	 * URL: http://www.myfonts.com/fonts/linotype/din-next-rounded/pro-rounded-light/
+	 *
+	 * Webfont: DINNextRoundedLTPro-Medium by Linotype
+	 * URL: http://www.myfonts.com/fonts/linotype/din-next-rounded/pro-rounded-medium/
+	 *
+	 *
+	 * License: http://www.myfonts.com/viewlicense?type=web&buildid=3228440
+	 * Licensed pageviews: 250,000
+	 * Webfonts copyright: Copyright &#x00A9; 2010 Linotype GmbH, www.linotype.com. All
+	 * rights reserved. This font software may not be reproduced, modified, disclosed or
+	 * transferred without the express written approval of Linotype GmbH.
+	 *
+	 * © 2016 MyFonts Inc
+	*/
+
+	-->
+	<link rel="stylesheet" type="text/css" href="stylesheets/MyFontsWebfontsKit.css">
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+	<!--Favicons end-->
+
+
+</head>
+
+	<!-- Body start
+	================================================== -->
+<body>
+
+	<!-- Loading screen start
+	================================================== -->
+
+<div id="loader-wrapper">
+	<div class="ball"></div>
+	<span class="shadow"></span>
+
+	<div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+</div>
+
+
+	<!-- Top bar start
+	================================================== -->
+
+<header class="header">
+<div class="container">
+    <div class="row">
+        <a class="logo" href="/"><img src="images/logo1-01.png"></a>
+
+        <div class="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="cl-effect-17">
+            <ul>
+                <li><a href="/" id="portfolio">Portfolio</a></li>
+                <li><a href="about.html" id="about">About</a></li>
+            </ul>
+        </nav>
+
+    </div> <!-- / row -->
+</div>
+
+</header>
+	<!--Top bar end-->
+
+
+
+
+
+
+	<!--cover start
+	================================================== -->
+	<div id="cover">
+		<div class="container-full cover-order-tracking red">
+
+		</div>
+	</div>
+	<!--cover end-->
+
+
+	<!--title start
+	================================================== -->
+
+	<div class="container-full title">
+		<div class="container section">
+		<div class="eleven columns name">
+			<p class="pre-title">
+			IA and UI design on iOS app
+			</p>
+			<h2>
+			Order Tracking System
+			</h2>
+			<p>
+			Rethink the whole process of order tracking system to decrease the willingness to cancel the order during long waiting time in rush hour.
+			</p>
+		</div>
+
+		<div class="five columns intro">
+			<ul>
+				<li>
+				<strong>Category</strong> / AI, UI, IxD
+				</li>
+				<li>
+				<strong>Published</strong> / 2015.4
+				</li>
+				<li>
+				<strong>Creater</strong> / Julio Huang
+				</li>
+				<li>
+				<strong>Site</strong> / spoonrocket.com
+				</li>
+				<li>
+				<strong>Client</strong> / SpoonRocket
+				</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+
+	<!--title end-->
+
+
+
+	<!--content start
+	================================================== -->
+	<div class="container section">
+		<blockquote>
+		Overview: SpoonRocket is a food delivery company servicing in SF. People can order meals via the app or website to get the them in fast speed. The current problem we encountered was that some of users cancel the order while in rush hour because they have to wait for more than 20 mins, and during this time, the order tracking screen doesn't show anything until a driver takes the order.
+		</blockquote>
+		<br/>
+		<h3>
+		Current problem
+		</h3>
+		<p>
+		In rush hour customers may experience more than 30 minutes waiting time after they confirm order. Approximately half of customers will cancel the order if they have to wait that long time, which effects our reputation and sales a lot.
+		</p>
+		<br/>
+		<div class="container">
+			<div class="seven columns">
+				<p>Delivered (Blue) + Cancelled (Red)
+					<div class="portfolio-img">
+						<img src="images/order-tracking/deliver-cancel.png">
+					</div>
+				</p>
+			</div>
+			<div class="nine columns offset-by-two">
+				<p>Cancelled Only (Red)
+					<div class="portfolio-img">
+						<img src="images/order-tracking/cancel.png">
+					</div>
+				</p>
+			</div>
+		</div>
+		<br/>
+		<h3>
+		Main Purpose
+		</h3>
+		<p>
+		Rethink the whole process from confirm order to receive meal and make it more interactive and joyful instead of a plain screen in order to make customers keep their eyes on, interact with, and feel less bored during long waiting time.
+		</p>
+	</div>
+
+	<div class="container">
+		<hr/>
+	</div>
+
+	<div class="container section">
+		<h3>
+		How does it work in back-end after users confirm order?
+		</h3>
+		<p>
+		After users place order...
+		</p>
+
+		<div class="order-tracking-table">
+				<table>
+					<tr>
+				    	<td></td>
+				    	<td><span>Back-end perspective</span></td>
+				    	<td><span>Estimated time</span></td>
+				  	</tr>
+				  	<tr>
+				    	<td><span>Stage1</span></td>
+				    	<td>Submit the order to server. <br/>Confirm the order.</td>
+				    	<td>5 -10 s</td>
+				  	</tr>
+				  	<tr>
+				  		<td><span>Stage2</span></td>
+				  		<td>Confirm the credit card. <br/>Start order initialisation.</td>
+				  		<td>0 - 2 mins</td>
+				  	</tr>
+				  	<tr>
+				  		<td><span>Stage3</span></td>
+				  		<td>All drivers are still delivering other orders. <br/>The order is not taken by a driver yet.</td>
+				  		<td>0 - 30 mins<br/>
+				  		<div class="important-red">This is the main factor that makes customers want to cancel orders.</div>
+				  		</td>
+				  	</tr>
+				  	<tr>
+				  		<td><span>Stage4</span></td>
+				  		<td>A driver takes the order.</td>
+				  		<td>3 - 10 mins</td>
+				  	</tr>
+				</table>
+		</div>
+		<br/>
+		<br/>
+		<h4>
+		Previous order tracking screens
+		</h4>
+		<p>
+		Strictly speaking, our current app just have three different screens for 4 stages' process in order tracking.<br/>
+		Stage1 is in first screen (just a default iOS loading spin)<br/>
+		Stage2 and Stage3 are combined in 2nd screen.<br/>
+		Stage4 is in the last screen.
+		</p>
+
+		<div class="container portfolio-img">
+			<img src="images/order-tracking/previous.jpg">
+		</div>
+		<br/>
+		<br/>
+		<h3>
+		Which part can be improved better?
+		</h3>
+		<ol>
+			<li>
+			<h4>Default loading spinner -> its own loading screen</h4>
+			<p>The current loading spinner is ok, but if we have enough time and resources, it's acceptable to create our own loading screen stead of the default one (ex: a rocket launching animation) Because if there's a catchy and animated loading animation that also match the branding, it will impress the users and accelerate their intolerance for waiting the meals.</p>
+			</li>
+			<li>
+			<h4>Interactive animation during rush hour (in Stage3)</h4>
+			<p>For some cases that there will be no driver available and the pin won't show in the map in rush hour although the server already assigns an order to a driver, it's not necessary to place a map with only your location pin itself in the screen. So maybe we can create a series of motion graphics instead, which is more vigorous and active. Add some little microinteractive elements on it would be much better.</p>
+			</li>
+			<li>
+			<h4>Visualize the waiting time and delivery process</h4>
+			<p>Since I separate the order tracking to 4 stages, I can also visualize the delivery process (ex: a timeline with 3-4 goal pins on it, and a car icon is run running on the timeline...) It makes the original design more attractive and interactive, and it also make users feel that the process is running (not just a map with a pin like the previous one)</p>
+			</li>
+			<li>
+			<h4>Add drivers profile and driver rating system (Stage 4 and after)</h4>
+			<p>Humans are visual-conscious, so seeing a driver's profile pic and name will make users feel the driver is caring their meals and feel the connection between them. Adding driver rating system after users receive meals also increase the interaction between users and drivers.</p>
+			</li>
+		</ol>
+
+		<br/>
+		<h4>
+		How to improve user experience?
+		</h4>
+			<p>
+			-> Add transition and animation<br/>
+			-> Visualize text information<br/>
+			-> Add interactive element (ex: give feedback when user tap on an item)
+			</p>
+
+	</div>
+
+	<div class="container">
+		<hr/>
+	</div>
+
+	<div class="container-full section">
+		<div class="container">
+		<h3>
+			Rethink order tracking flow
+		</h3>
+		<p>
+			After discussing with back-end developers, we clarified that it needs 4 stages to complete the delivery process, but customers don't know that, and they don't need to know, either. One of better ways to "present" to users is to pretend their meals are made on the spot, freshly, just like <strong>customers ordering meals in restaurant</strong>.
+		</p>
+		<p>
+			That's how the process looks like in back-end and customers:
+		</p>
+		<br/>
+
+		</div>
+		<div class="order-tracking-table">
+			<div class="container">
+				<h4> Order Tracking Flow Chart</h4>
+				<table>
+					<tr>
+				    	<td></td>
+				    	<td><span>Back-end perspective</span></td>
+				    	<td><span>customer perspective</span></td>
+				    	<td><span>Estimated time</span></td>
+				  	</tr>
+				  	<tr>
+				    	<td><span>Stage1</span></td>
+				    	<td>Submit the order to server. Confirm the order.</td>
+				    	<td>Confirm the order.</td>
+				    	<td>5 -10 s</td>
+				  	</tr>
+				  	<tr>
+				  		<td><span>Stage2</span></td>
+				  		<td>Confirm the credit card. Assign order to a driver.</td>
+				  		<td>The chef is arranging my meal list.</td>
+				  		<td>0 - 2 mins</td>
+				  	</tr>
+				  	<tr>
+				  		<td><span>Stage3</span></td>
+				  		<td>All drivers are still delivering other orders. The order is not taken by a driver yet.</td>
+				  		<td>SpoonRocket is preparing my meal. Maybe there are some other orders they are still preparing.</td>
+				  		<td>0 - 30 mins</td>
+				  	</tr>
+				  	<tr>
+				  		<td><span>Stage4</span></td>
+				  		<td>A driver takes the order.</td>
+				  		<td>My meal is ready. The meal will arrive soon.</td>
+				  		<td>3 - 10 mins</td>
+				  	</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<!--OrderTracking-full start
+	================================================== -->
+	<div class="container-full red">
+		<div class="full order-tracking-full section">
+			<div class="container">
+				<h2 class="bridge-h2">
+				The main purpose is to let users feel that their meal is made on the spot.
+				</h2>
+			</div>
+		</div>
+	</div>
+	<!--Order-Tracking-full end-->
+
+	<div class="section">
+	<div class="container" style="text-align: center;">
+		<h1>Mockup</h1>
+	</div>
+	<div class="container section">
+		<div class="nine columns offset-by-one-right">
+				<h3>
+				1. Rocket is about to lauch!
+				</h3>
+				<p class="subheading">
+				Stage 1 mockup - when user submit the order
+				</p>
+				<p>
+				After users tap "confirm order" in checkout screen, the order will be submited to the back-end system to check if the users' credit card is valid and the food supplies are adequate.
+				</p>
+				<h4>
+				Deliver the corporate's main thought
+				</h4>
+				<p>
+				Instead of inheriting mobile system's default loading spin, using the rocketing lauching animation as submitting transition <em>perfectly coinsides with the SpoonRocket's core positioning - good, food, fast. </em>
+				</p>
+		</div>
+		<div class="seven columns">
+			<div class="proto-bg">
+				<img src="images/order-tracking/stage1-bg.png">
+					<div class="proto-checkout">
+						<img src="images/order-tracking/stage1-01.png">
+					</div>
+					<div class="proto-checkout-tap">
+						<img src="images/order-tracking/pointer.png">
+					</div>
+					<div class="stage1-stage2">
+						<img src="images/order-tracking/mockup-02.png">
+					</div>
+					<div class="proto-red">
+						<div class="loading-rocket">
+							<img src="images/order-tracking/stage1-rocket.png">
+						</div>
+						<div class="loading-fire">
+							<img src="images/order-tracking/stage1-fire.png">
+						</div>
+						<div class="loading-ring">
+							<img src="images/order-tracking/stage1-ring.png">
+						</div>
+						<div class="loading-02">
+							<img src="images/order-tracking/stage1-02.png">
+						</div>
+						<div class="loading-fullring">
+							<img src="images/order-tracking/stage1-fullring.png">
+						</div>
+						<div class="loading-check">
+							<img src="images/order-tracking/stage1-check.png">
+						</div>
+						<div class="loading-03">
+							<img src="images/order-tracking/stage1-03.png">
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-full beige">
+		<div class="container section">
+			<div class="seven columns">
+				<div class="proto-bg">
+					<img src="images/order-tracking/iphone6-front.png">
+					<div class="proto-green">
+					</div>
+					<div class="chef">
+						<img src="images/order-tracking/stage2-03.png">
+					</div>
+					<div class="chef-hat">
+						<img src="images/order-tracking/stage2-04.png">
+					</div>
+					<div class="chef-mustache-left">
+						<img src="images/order-tracking/stage2-05.png">
+					</div>
+					<div class="chef-mustache-right">
+						<img src="images/order-tracking/stage2-06.png">
+					</div>
+					<div class="proto-screen">
+						<img src="images/order-tracking/stage2-02.png">
+					</div>
+					<div class="proto-spin stage2-animation">
+						<img src="images/order-tracking/proto-spin.png">
+					</div>
+					<div class="proto-progress-car">
+						<img src="images/order-tracking/progress-car.png">
+					</div>
+					<div class="proto-pointer1">
+						<img src="images/order-tracking/pointer.png">
+					</div>
+					<div class="clickme1">
+						<p>Click me!</p>
+					</div>
+				</div>
+			</div>
+			<div class="nine columns offset-by-one">
+				<h3>
+				2. Arranging your order list
+				</h3>
+				<p class="subheading">
+				Stage 2 mockup - checking the credit card
+				</p>
+				<p>
+				When the order is confirmed, the progress will go forward to stage 2 - system has to confirm the credit card and assign the order to a driver, and it usually take only less than 1 mins at this stage. I set this stage as "chef is arranging the order list" to users.
+				</p>
+				<h4>
+				Interesting interation
+				</h4>
+				<p>
+				The crucial touch in this project is that I create some interation between users and the app during waiting time. Like this stage, the chef's mustache in the center is slightly tilting. If the user taps the chef, he will jump and show show his barehead. <em>It is a great experience to make the users less intolerant so that they will be unlikely to cancel the order - Goal fulfilled!</em>
+				</p>
+				<h4>
+				Progress bar
+				</h4>
+				<p>
+				Instead of placing text, showing animated progress bar with three goals offer the non-changed screen more vigorous elements.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="container section">
+		<div class="nine columns offset-by-one-right">
+				<h3>
+				3. We are preparing your meal
+				</h3>
+				<p class="subheading">
+				Stage 3 mockup - waiting for a driver to take the order
+				</p>
+				<p>
+				Once the credit card is confirmed, this order will be officially established, then the order is going to the waiting list until a driver take it. This stage is set as we perparing the customer's meal.
+				</p>
+				<h4>
+				You're in the food preparing process!
+				</h4>
+				<p>
+				Given that sometimes it takes long for a driver to take the order when in rush hour, I designed more interactive illustrations at this stage. The user can also <em>tap the illustrations to get their feedback as if they are preparing the food themselves!</em>
+				</p>
+				<div class="stage3-07">
+				<img src="images/order-tracking/stage3-07.png">
+				</div>
+				<p>
+				The motion graphic of every icon lasts 30s then changes to the next one. If all of them are played, starts from the first one and repeat still this stage is over.
+				</p>
+		</div>
+		<div class="seven columns">
+			<div class="proto-bg">
+				<img src="images/order-tracking/iphone6-front.png">
+					<div class="proto-orange">
+					</div>
+					<div class="knife knife-ready-chop">
+						<img src="images/order-tracking/stage3-03.png">
+					</div>
+					<div class="carrot-front">
+						<img src="images/order-tracking/stage3-04.png">
+					</div>
+					<div class="chopping-board">
+					</div>
+					<div class="carrot-back">
+						<img src="images/order-tracking/stage3-05.png">
+					</div>
+					<div class="proto-screen">
+						<img src="images/order-tracking/stage3-02.png">
+					</div>
+					<div class="proto-spin stage3-animation">
+						<img src="images/order-tracking/proto-spin.png">
+					</div>
+					<div class="proto-progress-car2">
+						<img src="images/order-tracking/progress-car.png">
+					</div>
+					<div class="check-pin">
+						<img src="images/order-tracking/stage3-06.png">
+					</div>
+					<div class="proto-pointer2">
+						<img src="images/order-tracking/pointer.png">
+					</div>
+					<div class="clickme2">
+						<p>Click me!</p>
+					</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-full beige-gradient section">
+		<div class="container">
+			<div class="container">
+				<h3>
+					Meal is about to arrive
+				</h3>
+				<p>
+					As soon as a driver takes the order, the translucent red cover will fade out then to show the map with the driver's current location and the user's location.
+				</p>
+				<p>
+					By adding stage2 and stage3 interative screens before this stage, the user who confirm the order will no longer experience a map without location pins or any other information when there's no driver taking the order yet. <em>Now, we won't show the map until a driver takes the order.</em>
+				</p>
+			</div>
+		</div>
+		<div class="stage4">
+			<div class="stage4-bg">
+				<div class="stage4-redpin">
+					<img src="images/order-tracking/stage4-redpin.png">
+				</div>
+				<div class="stage4-brownpin">
+					<img src="images/order-tracking/stage4-brownpin.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+
+	<div class="container portfolio-img">
+		<img src="images/order-tracking/ordertracking1.jpg">
+	</div>
+	<div class="container portfolio-img">
+		<img src="images/order-tracking/ordertracking2.jpg">
+	</div>
+
+
+
+
+
+
+
+
+
+
+	<!--Footer start
+	================================================== -->
+	<div class="footer">
+		<div class="container-full">
+			<div class="bottom-contact">
+				<p> You can reach me via these social media platforms <i class="em em-wave"></i></p>
+				<ul>
+					<li><a href="https://dribbble.com/juliohuang" target="_blank">Dribbble</a></li>
+					<li><a href="https://www.facebook.com/julio53640" target="_blank">Facebook</a></li>
+					<li><a href="https://twitter.com/JulioHuang_Hi" target="_blank">Twitter</a></li>
+					<li><a href="https://www.instagram.com/julio53640/" target="_blank">Instagram</a></li>
+				</ul>
+			</div>
+			<div class="copyright">
+				<p>
+					&#169; 2019 Julio Huang. All Rights Reserved.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!--Footer end-->
+
+
+
+
+
+
+
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
+
+
+
+
+
+	<script type="text/javascript">
+
+
+/* Scroll to top when refresh
+================================================== */
+
+		$(document).ready(function(){
+   			 $('html').animate({scrollTop:0}, 1);
+   			 $('body').animate({scrollTop:0}, 1);
+});
+
+/* Scroll items animations
+================================================== */
+
+		$(window).scroll(function() {
+			$('.check-pin').each(function(){
+				var imagePos = $(this).offset().top;
+
+				var topOfWindow = $(window).scrollTop();
+					if (imagePos < topOfWindow + 680) {
+						$(this).addClass("pullUp");
+					}
+			});
+			$('.proto-bg').each(function(){
+				var imagePos = $(this).offset().top;
+
+				var topOfWindow = $(window).scrollTop();
+					if (imagePos < topOfWindow + 680) {
+						$(this).addClass("fadeIn");
+					}
+			});
+			$('.stage4-redpin').each(function(){
+				var imagePos = $(this).offset().top;
+
+				var topOfWindow = $(window).scrollTop();
+					if (imagePos < topOfWindow + 680) {
+						$(this).addClass("pullUp");
+					}
+			});
+			$('.stage4-brownpin').each(function(){
+				var imagePos = $(this).offset().top;
+
+				var topOfWindow = $(window).scrollTop();
+					if (imagePos < topOfWindow + 680) {
+						$(this).addClass("pullUp");
+					}
+			});
+			$('.bridge-h2').each(function(){
+				var imagePos = $(this).offset().top;
+
+				var topOfWindow = $(window).scrollTop();
+					if (imagePos < topOfWindow + 600) {
+						$(this).addClass("pullUp");
+					}
+			});
+		});
+
+
+
+/* Tinkering around with a fixed nav bar, and changing it based on scroll
+================================================== */
+
+$(document).ready(function(){
+  	$(window).scroll(function(){
+    var scrollTop = $(window).scrollTop();
+    	if (scrollTop > 49) {
+        	$('body').addClass('header-fixed');
+    	} else {
+        	$('body').removeClass('header-fixed');
+    }
+  });
+  setTimeout(function(){
+		$('body').addClass('loaded');
+	}, 3000);
+});
+
+
+// Mobile Navigation
+$('.mobile-toggle').click(function() {
+    if ($('.header').hasClass('open-nav')) {
+        $('.header').removeClass('open-nav');
+    } else {
+        $('.header').addClass('open-nav');
+    }
+});
+
+$('.header li a').click(function() {
+    if ($('.header').hasClass('open-nav')) {
+        $('.navigation').removeClass('open-nav');
+        $('.header').removeClass('open-nav');
+    }
+});
+
+
+/* Set Prototype Animation Trigger
+================================================== */
+
+$(function() {
+  $(".stage2-animation").click(function() {
+  	if ($(".chef-jump")[0]){
+    }
+    else {
+    	$(".chef").addClass("chef-jump");
+	    $(".chef-hat").addClass("chef-hat-jump");
+	    $(".chef-mustache-left").addClass("chef-mustache-jump");
+	    $(".chef-mustache-right").addClass("chef-mustache-jump");
+	    $(".proto-pointer1").hide();
+	    $(".clickme1").hide();
+	    setTimeout(function () {
+		    $(".chef").removeClass("chef-jump");
+		    $(".chef-hat").removeClass("chef-hat-jump");
+		    $(".chef-mustache-left").removeClass("chef-mustache-jump");
+		    $(".chef-mustache-right").removeClass("chef-mustache-jump");
+		}, 1600);
+	};
+  });
+});
+
+$(function() {
+  $(".stage3-animation").click(function() {
+  	if ($(".knife-chopping")[0]){
+    }
+    else {
+	    $(".knife").addClass("knife-chopping");
+	    $(".carrot-front").addClass("front-carrot-cut");
+	    $(".carrot-back").addClass("back-carrot-cut");
+	    $(".proto-pointer2").hide();
+	    $(".clickme2").hide();
+	    setTimeout(function () {
+		    $(".knife").removeClass("knife-chopping");
+		    $(".carrot-front").removeClass("front-carrot-cut");
+		    $(".carrot-back").removeClass("back-carrot-cut");
+		}, 2800);
+	};
+  });
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>

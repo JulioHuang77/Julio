@@ -1,0 +1,149 @@
+/* --------------------------------
+
+Main Components
+
+-------------------------------- */
+.cd-main-content {
+  position: relative;
+  min-height: 100vh;
+}
+.cd-main-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*.cd-main-content.is-fixed .cd-tab-filter-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.cd-main-content.is-fixed .cd-gallery {
+  padding-top: 76px;
+}
+.cd-main-content.is-fixed .cd-filter {
+  position: fixed;
+  height: 100vh;
+  overflow: hidden;
+}
+.cd-main-content.is-fixed .cd-filter form {
+  height: 100vh;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.cd-main-content.is-fixed .cd-filter-trigger {
+  position: fixed;
+}
+@media only screen and (min-width: 768px) {
+  .cd-main-content.is-fixed .cd-gallery {
+    padding-top: 90px;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-main-content.is-fixed .cd-gallery {
+    padding-top: 100px;
+  }
+}
+
+/* --------------------------------
+
+xgallery
+
+-------------------------------- */
+.cd-gallery {
+  padding: 26px 5%;
+  width: 100%;
+  text-align: center;
+}
+.cd-gallery li {
+  margin: 1.2em auto;
+  background-color: #ffffff;
+  display: none;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+.cd-gallery li:hover {
+  box-shadow: 0px 10px 30px 0px #F1F4F7;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+.cd-gallery li div.content {
+  padding: 20px 20px;
+}
+.cd-gallery li div.content p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.cd-gallery li a {
+  color: #333;
+}
+.cd-gallery li a:visited p {
+  color: #505362;
+}
+.cd-gallery li a:hover p {
+  color: #3C3F4B;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.cd-gallery li a:active p {
+  color: #3C3F4B;
+}
+.cd-gallery li.gap {
+  /* used in combination with text-align: justify to align gallery elements */
+  opacity: 0;
+  height: 0;
+  display: inline-block;
+}
+.cd-gallery img {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  opacity: 1;
+}
+.cd-gallery .cd-fail-message {
+  display: none;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-gallery li {
+    width: 540px;
+  }
+  .cd-gallery ul:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .cd-gallery li div.content {
+  padding: 24px 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cd-gallery {
+    padding: 10px 10px 0 10px;
+    width: 100%;
+  }
+  .cd-gallery li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .cd-tab-filter-wrapper {
+    box-shadow: none;
+  }
+  .cd-tab-filter {
+    width: 100%;
+  }
+  .cd-tab-filter ul {
+    width: 100%;
+  }
+  .cd-tab-filter a {
+    width: 100%;
+    text-align: center;
+  }
+}
