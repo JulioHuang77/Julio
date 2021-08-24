@@ -10,13 +10,13 @@
 	<meta charset="utf-8">
 	<title>Julio Huang</title>
 	<meta name="author" content="Julio Huang">
-	<meta name="description" content="A UI/UX designer from Taiwan. I aim to communicate strong ideas with well-visualized images and better user experiences.">
+	<meta name="description" content="A UI/UX designer. I aim to communicate strong ideas with well-visualized images and better user experiences.">
 	<meta name="format-detection" content="telephone=no">
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:title" content="Julio Huang"/>
-	<meta property="og:description" content="A UI/UX designer from Taiwan. I aim to communicate strong ideas with well-visualized images and better user experiences."/>
-	<meta property="og:image" content="http://juliohuang.com/images/juliohuang_thumbnail.png">
-	<meta property="og:url" content="http://juliohuang.com/">
+	<meta property="og:description" content="A UI/UX designer. I aim to communicate strong ideas with well-visualized images and better user experiences."/>
+	<meta property="og:image" content="https://juliohuang.tw/images/juliohuang_thumbnail.png">
+	<meta property="og:url" content="https://juliohuang.tw/about.html">
 	<meta property="og:type" content="blog"/>
 
 
@@ -37,37 +37,13 @@
 
 	<script type="text/javascript" src="js/modernizr-latest.js"></script>
 
-	<!--
-	/**
-	 * @license
-	 * MyFonts Webfont Build ID 3228440, 2016-06-06T02:34:14-0400
-	 *
-	 * The fonts listed in this notice are subject to the End User License
-	 * Agreement(s) entered into by the website owner. All other parties are
-	 * explicitly restricted from using the Licensed Webfonts(s).
-	 *
-	 * You may obtain a valid license at the URLs below.
-	 *
-	 * Webfont: DINNextRoundedLTPro-Light by Linotype
-	 * URL: http://www.myfonts.com/fonts/linotype/din-next-rounded/pro-rounded-light/
-	 *
-	 * Webfont: DINNextRoundedLTPro-Medium by Linotype
-	 * URL: http://www.myfonts.com/fonts/linotype/din-next-rounded/pro-rounded-medium/
-	 *
-	 *
-	 * License: http://www.myfonts.com/viewlicense?type=web&buildid=3228440
-	 * Licensed pageviews: 250,000
-	 * Webfonts copyright: Copyright &#x00A9; 2010 Linotype GmbH, www.linotype.com. All
-	 * rights reserved. This font software may not be reproduced, modified, disclosed or
-	 * transferred without the express written approval of Linotype GmbH.
-	 *
-	 * © 2016 MyFonts Inc
-	*/
 
-	-->
-	<link rel="stylesheet" type="text/css" href="stylesheets/MyFontsWebfontsKit.css">
+	<!-- Typography
+  ================================================== -->
 	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
 
 
@@ -132,32 +108,12 @@
 
 
 
-
-
-	<!--cover start
-	================================================== -->
-
-	<div id="cover">
-		<div class="container-full cover">
-			<div class="container title">
-			<h2>Hello, I'm</h2>
-			<h1>Julio Huang</h1>
-			<p> A Taiwan-based UI/UX designer.</p>
-			</div>
-		</div>
-	</div>
-
-	<!--cover end-->
-
-
-
-
 	<!--intro start
 	================================================== -->
 	<div class="container">
 		<div class="intro section" id="intro">
 			<p class="intro-p">
-			I am a UI and UX designer with over <i class="em em-raised_hand_with_fingers_splayed"></i> years experience in digital design.</p><p class="intro-p">I am obsessed with pixels and sunlight, and also passionate about prototyping and designing meaningful products with clean, simple and precise interface, that empower people to do great things.</p>
+			Julio is a UI and UX designer with over <i class="em em-raised_hand_with_fingers_splayed"></i> years experience in end-to-end product design.</p><p class="intro-p">I am obsessed with pixels and sunlight, and also passionate about prototyping and designing meaningful products that empower people to do great things.</p>
 		</p>
 			<div id="button" class="button-normal">
 				<a href="about.html" onclick="this.target='_blank'">
@@ -289,13 +245,12 @@
 				<ul>
 					<li><a href="https://dribbble.com/juliohuang" target="_blank">Dribbble</a></li>
 					<li><a href="https://www.facebook.com/julio53640" target="_blank">Facebook</a></li>
-					<li><a href="https://twitter.com/JulioHuang_Hi" target="_blank">Twitter</a></li>
-					<li><a href="https://www.instagram.com/julio53640/" target="_blank">Instagram</a></li>
+					<li><a href="https://www.linkedin.com/in/julio-huang/" target="_blank">LinkedIn</a></li>
 				</ul>
 			</div>
 			<div class="copyright">
 				<p>
-					&#169; 2019 Julio Huang. All Rights Reserved.
+					&#169; 2021 Julio Huang. All Rights Reserved.
 				</p>
 			</div>
 		</div>
@@ -326,28 +281,11 @@
    			 $('html').animate({scrollTop:0}, 1);
    			 $('body').animate({scrollTop:0}, 1);
 });
-/* Showing items animations
-================================================== */
-
-		$(document).ready(function () {
-   		 	setTimeout(function(){
-    		    $('.title').addClass("fadeInUp");
-    		    $('.cover').addClass("fadeIn");
-  			}, 3500);
-		});
 
 /* Scroll items animations
 ================================================== */
 
 		$(window).scroll(function() {
-			$('.more-portfolio').each(function(){
-				var imagePos = $(this).offset().top;
-
-				var topOfWindow = $(window).scrollTop();
-					if (imagePos < topOfWindow + 600) {
-						$(this).addClass("fadeInUp");
-					}
-			});
 			$('.animate-rightin').each(function(){
 				var imagePos = $(this).offset().top;
 
@@ -374,7 +312,7 @@ $(document).ready(function(){
   });
   setTimeout(function(){
 		$('body').addClass('loaded');
-	}, 3000);
+	}, 1500);
 });
 
 

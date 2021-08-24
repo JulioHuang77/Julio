@@ -51,7 +51,6 @@ xgallery
 
 -------------------------------- */
 .cd-gallery {
-  padding: 26px 5%;
   width: 100%;
   text-align: center;
 }
@@ -79,19 +78,19 @@ xgallery
   -o-transition: all 0.3s ease;
 }
 .cd-gallery li a {
-  color: #333;
+  color: #252932;
 }
 .cd-gallery li a:visited p {
-  color: #505362;
+  color: #303133;
 }
 .cd-gallery li a:hover p {
-  color: #3C3F4B;
+  color: #252932;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
 .cd-gallery li a:active p {
-  color: #3C3F4B;
+  color: #252932;
 }
 .cd-gallery li.gap {
   /* used in combination with text-align: justify to align gallery elements */
@@ -112,7 +111,9 @@ xgallery
 
 @media only screen and (min-width: 768px) {
   .cd-gallery li {
-    width: 540px;
+    margin: 20px;
+    width: calc(50% - 40px);
+    float: left;
   }
   .cd-gallery ul:after {
     content: "";

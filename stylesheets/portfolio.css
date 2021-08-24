@@ -40,10 +40,10 @@
 	.bridge-h2 {
 		color: #fff;
 		visibility: hidden;
-		font-family: "DINNextRoundedLTPro-Light";
+		font-family: "Mulish";
 	}
 	.black {
-		color: #4a4e53 !important;
+		color: #252932 !important;
 	}
 	.author {
 		position: absolute;
@@ -774,7 +774,8 @@
 		border-radius: 8px;
 		background-color: #e0473f;
 		color: #fff;
-		font-family: "DINNextRoundedLTPro-Medium";
+		font-family: "Mulish";
+		font-weight: 600;
 		padding: 10px;
 		margin: 5px;
 		max-width: 250px;
@@ -815,7 +816,8 @@
 		border-left: 2px solid #eee;
 	}
 	.order-tracking-table span {
-		font-family: "DINNextRoundedLTPro-Medium";
+		font-family: "Mulish";
+		font-weight: 600;
 	}
 	.subheading {
 		margin: -16px 0 20px 0;

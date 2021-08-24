@@ -63,8 +63,9 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 15px/26px "DINNextRoundedLTPro-Light", "HelveticaNeue", "Helvetica Neue", "Noto Sans TC", "微軟正黑體", Helvetica, Arial, sans-serif;
-		color: #505362;
+		font: 17px/26px "Mulish", "HelveticaNeue", "Helvetica Neue", "Noto Sans TC", "微軟正黑體", Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		color: #252932;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  	}
@@ -76,39 +77,40 @@
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
-		color: #4a4e53;
-		font-family: "DINNextRoundedLTPro-Medium", "HelveticaNeue", "Helvetica Neue", "Noto Sans TC", "微軟正黑體", Helvetica, Arial, sans-serif;
-		font-weight: 500; }
-	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: 500; }
+		color: #252932;
+		font-family: "Mulish", "HelveticaNeue", "Helvetica Neue", "Noto Sans TC", "微軟正黑體", Helvetica, Arial, sans-serif;
+		font-weight: 700;
+	}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: 700; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 28px;}
 	h2 { font-size: 34px; line-height: 44px; margin-bottom: 24px; }
 	h3 { font-size: 28px; line-height: 36px; margin-bottom: 22px; }
 	h4 { font-size: 20px; line-height: 28px; margin-bottom: 12px; }
 	h5 { font-size: 18px; line-height: 24px; }
 	h6 { font-size: 14px; line-height: 21px; }
-	.subheader { color: #4a4e53; }
+	.subheader { color: #252932; }
 
 	h3.title-white { color: #fff; font-size: 30px; line-height: 34px;
-		font-weight: 500; margin-top: 114px; margin-bottom: 25px; }
+		font-weight: 700; margin-top: 114px; margin-bottom: 25px; }
 
-	p { font-weight: 300; color: #505362; font-size: 17px; line-height: 32px; margin-bottom: 20px;}
+	p { font-weight: 400; color: #252932; font-size: 17px; line-height: 32px; margin-bottom: 20px;}
 	p img { margin: 0; }
-	p.lead { font-size: 17px; line-height: 32px; color: #505362;  }
+	p.lead { font-size: 17px; line-height: 32px; color: #252932;}
 	a {text-decoration: none; }
 	a:visited {color: inherit; }
 
 	em { border-bottom: 2px solid #ffe153; }
-	strong { font-weight: bold; color: #505362; }
+	strong { font-weight: bold; color: #252932; }
 	small { font-size: 80%; }
 
 
 
 /*	Blockquotes  */
-	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #505362; font-style: italic; }
+	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #252932; font-style: italic; }
 	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
-	blockquote cite { display: block; font-size: 12px; color: #505362; }
+	blockquote cite { display: block; font-size: 12px; color: #252932; }
 	blockquote cite:before { content: "\2014 \0020"; }
-	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #505362; }
+	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #252932; }
 
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; height: 0; }
 
@@ -197,7 +199,7 @@
 		position: relative;
 		display: inline-block;
 		margin: 0px 0px 10px 50px;
-		font-size: 16px;
+		font-size: 17px;
 		letter-spacing: 1px;
 	}
 
@@ -224,7 +226,7 @@
 	    height: 4px;
 	    margin-bottom: 4px;
 	    border-radius: 2px;
-	    background: #4a4e53;
+	    background: #252932;
 	    display: block;
 	}
 
@@ -274,15 +276,16 @@
 
 
 	.cl-effect-17 a {
-		color: #4a4e53;
-		font-family: "DINNextRoundedLTPro-Light", "HelveticaNeue", "Helvetica Neue", "Noto Sans TC", "微軟正黑體", Helvetica, Arial, sans-serif;
+		color: #252932;
+		font-family: "Mulish", "HelveticaNeue", "Helvetica Neue", "Noto Sans TC", "微軟正黑體", Helvetica, Arial, sans-serif;
+		font-weight: 400;
 		opacity: 1;
 		text-shadow: none;
 		padding: 10px 0;
 	}
 
 	.cl-effect-17 a::before {
-		color: #4a4e53;
+		color: #252932;
 		content: attr(data-hover);
 		position: absolute;
 		-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -310,7 +313,7 @@
 	}
 
 	.cl-effect-17 a:hover {
-		color: #4a4e53;
+		color: #252932;
 		opacity: 0.8;
 		-webkit-transition: 0.2s;
 		-moz-transition: 0.2s;
@@ -441,8 +444,9 @@
 		-moz-border-radius: 2px;
 		-webkit-border-radius: 2px;
 		border-radius: 2px;
-		font: 13px "DIN Next Pro Rounded Light", "HelveticaNeue", "Helvetica Neue", "Noto Sans TC", "微軟正黑體", Helvetica, Arial, sans-serif;
-		color: #777;
+		font: 13px "Mulish", "HelveticaNeue", "Helvetica Neue", "Noto Sans TC", "微軟正黑體", Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		color: #252932;
 		margin: 0;
 		width: 210px;
 		max-width: 100%;
@@ -466,7 +470,7 @@
 	legend span {
 		font-weight: normal;
 		font-size: 13px;
-		color: #444; }
+		color: #252932; }
 
 
 
@@ -498,21 +502,20 @@
 
   @media only screen and (max-width: 767px) {
 
-		p {
-			font-size: 16px;
-			line-height: 26px;
-		}
+	p {
+		line-height: 26px;
+	}
     .section {
   		padding: 52px 0;
   	}
-	  .logo {
+	.logo {
     	margin-left: 8px;
   	}
   	.button-normal {
   		margin-left: auto;
   		margin-right: auto;
   	}
-	  nav {
+	nav {
   		width: 100%;
   	}
   	nav ul {
